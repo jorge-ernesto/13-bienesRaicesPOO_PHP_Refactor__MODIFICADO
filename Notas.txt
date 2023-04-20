@@ -1,0 +1,20 @@
+Notas
+
+---- Proyecto modificado ----
+
+- Eliminamos Gulp.js
+- Actualizamos Composer
+- Para verificar los cambios realizados en el proyecto modificado y ya que todo el repositorio usa Git, se puede copiar el contenido del proyecto sin modificar al proyecto modificado
+
+---- Gulp.js ----
+
+- Eliminamos carpetas "src" y "build", "build" es la carpeta generada por Gulp.js
+- Creamos carpeta "assets" con los archivos correctos
+- Modificamos referencias en HTML de "build" a "assets"
+
+---- Composer ----
+
+- Agregamos ".gitignore"
+- Eliminamos archivo "composer.lock"
+- Eliminamos carpeta "vendor"
+- Ejecutamos "composer install"
